@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    background-image: url('images/virtual_birthday_party_background_charlene_chronicles_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.countdown-timer{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    height:110vh;
+    font-family:sans-serif;
+}
+ul li{
+    
+    display:inline-block;
+    padding:0 5px;
+    text-align:center;
+    color:rgb(17 102 14);
+    font-size:25px;
+    font-weight:600;
+    
+    
+       
+}
+ul li span{
+    display:block;
+    font-size:50px;
+    padding-top:5px;
+    color:rgb(16, 4, 85);
+    font-weight:600;
+    
+}
+
+.greet{
+    font-size:40px;
+    text-align:center;
+    margin-top:30px;
+    font-weight:600;    
+    color:rgba(17, 36, 2, 0.493);
+}
+@media(max-width:768px){
+    body{
+        background-image: url('images/gettyimages-1045209474-612x612.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .countdown-timer{
+        display:flex;
+        
+    }
+.greet{
+    padding:30px;
+    color:rgba(17, 5, 87, 0.7);
+}
+
+    ul li{
+        
+        display:block;
+    }
+
+    ul li span{
+        font-size:10w;
+        
+        
+    }
+
+}
